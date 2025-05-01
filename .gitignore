@@ -1,0 +1,59 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境目录
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# 环境变量文件
+.env
+
+# Flask 实例目录（用于存放配置文件等）
+instance/
+.webassets-cache
+
+# 测试和覆盖率报告
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 构建输出
+build/
+dist/
+*.egg-info/
+
+# 编辑器配置文件
+.idea/
+.vscode/
+*.swp
+*~
+
+# 日志文件
+*.log
+
+# 数据库文件（根据实际情况选择性忽略）
+*.db
+*.sqlite
+*.sqlite3
+
+# 类型检查工具缓存
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# 文档构建输出
+docs/_build/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
